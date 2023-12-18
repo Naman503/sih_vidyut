@@ -1,0 +1,75 @@
+/* footer.css */
+
+/* Style for the footer */
+.footer {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Add a subtle border at the top */
+  }
+  
+  /* Container for the footer content */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for the footer logo */
+  .footer-logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%; /* Apply a circular border to the logo */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+  }
+  
+  /* Zoom effect on hover for the footer logo */
+  .footer-logo img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Style for the footer links */
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    position: relative;
+    transition: color 0.3s ease; /* Smooth color change on hover */
+  }
+  
+  /* Color change on hover for footer links */
+  .footer-links a:hover {
+    color: #009688; /* Teal color on hover */
+  }
+  
+  /* Style for the bottom section of the footer */
+  .footer-bottom {
+    margin-top: 20px;
+    color: #999;
+    font-size: 0.9rem;
+  }
+  
+  /* Animated underline for footer links on hover */
+  .footer-links a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #009688; /* Teal color */
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-links a:hover::before {
+    transform: scaleX(1);
+  }
+  

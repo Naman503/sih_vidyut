@@ -1,0 +1,30 @@
+.chatbotlogo {
+    width: 40%;
+    top:100%
+}
+
+.floating-chatbot {
+    position: fixed; /* Changed from relative to fixed */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    z-index: 1000; /* Ensure it sits above other elements */
+
+}
+
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.btngroup {
+    animation: floating 2s infinite; 
+}
+
+
+/* .chatbotlogo:hover {
+    background: none; 
+} */

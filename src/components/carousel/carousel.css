@@ -1,0 +1,36 @@
+/* CarouselComponent.css */
+
+/* Set a border radius for the images */
+.carousel-item img {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+}
+
+/* Style for carousel navigation arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #343a40;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+/* Style for carousel indicators (dots at the bottom) */
+.carousel-indicators li {
+  background-color: #343a40;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+/* Active indicator color */
+.carousel-indicators .active {
+  background-color: #007bff;
+}
