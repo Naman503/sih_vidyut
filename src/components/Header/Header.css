@@ -1,0 +1,54 @@
+.h-wrapper {
+    margin: 0px;
+    color: white;
+}
+
+.h-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: ;
+}
+
+/* Style your images if needed */
+.h-container img {
+    max-width: 16%;
+    /* Ensures images are responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.h-menu {
+    gap: 2rem;
+}
+
+.h-menu>*:hover {
+    cursor: pointer;
+}
+
+.header-line {
+    width: 100%;
+    /* 70% of the container's width */
+    height: 80px;
+    /* Thickness of the line */
+    background-color: #ffb635;
+    /* Color of the line */
+    margin: 0 auto;
+    /* Centers the line horizontally */
+}
+
+.menu-bar {
+    font-size:14px;
+    display: flex; /* Aligns items in a row */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Aligns items vertically */
+    background-color: #ffb635; /* Background color for the menu bar */
+    padding: 20px 0; /* Vertical padding */
+}
+
+.menu-item {
+    margin: 0 7px; /* Spacing between menu items */
+    white-space: nowrap; /* Ensures text doesn't wrap */
+    /* Add any additional styling for your menu items here */
+}
