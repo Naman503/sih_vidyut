@@ -34,14 +34,14 @@ const Hero = () => {
         </div>
 
         </div>
-        <div className="flexCenter hero-right">
+        {/* <div className="flexCenter hero-right">
           <div className="image-container">
             <button className="chatbot-button">
               <img src="./chatbotnew.png" alt="Chatbot" />
             </button>
           </div>
 
-        </div>
+        </div> */}
       </section>
       {/* Services Portion */}
 

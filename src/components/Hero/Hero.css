@@ -129,9 +129,14 @@
 }
 
 .video-background-container {
-    position: relative;
+    position: absolute;
+    top:0px;
     width: 100%; /* Adjust the width as needed */
     height: 80vh; /* Adjust the height as needed */
-    overflow: hidden;
 }
 
+.background-video{
+    width: 109%;
+
+  
+}
